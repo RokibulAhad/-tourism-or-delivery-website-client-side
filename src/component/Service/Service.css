@@ -1,0 +1,24 @@
+.card{
+    text-align: center;
+    padding: 15px;
+    border: none;
+}
+
+.info_btn3{
+    padding: 10px 15px;
+    background-color: #B9F7F9;
+    border-radius: 10px;
+    border: 1px solid #024E83;
+    transition: .5s;
+    
+}
+.info_btn3:hover{
+    background-color: #fff;
+
+}
+.service{
+    transition: .4s;
+}
+.service:hover{
+    transform: scale(1.05);
+}

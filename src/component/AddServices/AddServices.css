@@ -1,0 +1,14 @@
+
+.addservice{
+    background-image: url("../../images/form.jpg"),
+    linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));;
+    border-radius: 5px;
+    background-blend-mode: overlay;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+}
+.addservice ::-webkit-input-placeholder{
+    color:azure
+}

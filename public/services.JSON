@@ -1,0 +1,50 @@
+[
+    {
+        "key": "1",
+        "name": "Paris",
+        "img":"https://i.ibb.co/SrFLvxr/paris.jpg",
+        "description":"Paris is the capital and most populous city of France, with an estimated population of 2,175,601 residents as of 2018, in an area of more than 105 square kilometres.[4] Since the 17th century, Paris has been one of Europe's major centres of diplomacy, commerce, fashion,  and arts.",
+        "price": 108
+        
+    },
+    {
+        "key": "2",       
+        "name": "Pattaya",
+        "img":"https://i.ibb.co/BC9Jvj4/pataya.png",
+        "description":"Pattaya is a city on Thailand’s eastern Gulf coast known for its beaches. A quiet fishing village as recently as the 1960s, it’s now lined with resort hotels, high-rise condos, shopping malls, cabaret bars and 24-hour clubs. Nearby, hillside Wat Phra Yai Temple features an 18m-tall golden Buddha.",
+        "price": 200
+        
+    },
+    {
+        "key": "3",
+        "name": "Rome",
+        "img":"https://i.ibb.co/P6hXhhm/rome.png",
+        "description":"Rome  is the capital city of Italy. It is also the capital of the Lazio region, the centre of the Metropolitan City of Rome. With 2,860,009 residents in Rome is the country's most populated comune and the third most populous city in the European Union by population within city limits.",
+        "price": 320       
+    },
+    {
+        "key": "4",
+        "name": "Taj Mahal",
+        "img":"https://i.ibb.co/cgGJfVh/tajmahal.png",
+        "description":"The Taj Mahal is an ivory-white marble mausoleum on the right bank of the river Yamuna in the Indian city of Agra. It was commissioned in 1632 by the Mughal emperor Shah Jahan (reigned from 1628 to 1658) to house the tomb of his favourite wife, Mumtaz Mahal; it also houses the tomb of Shah Jahan himself.",
+        "price": 200
+        
+    },
+    {
+        "key": "5",
+        "name": "Pyramid",
+        "img":"https://i.ibb.co/GHjXjNJ/piramid.png",
+        "description":"A pyramid is a structure whose outer surfaces are triangular and converge to a single step at the top, making the shape roughly a pyramid in the geometric sense. The base of a pyramid can be trilateral, quadrilateral, or of any polygon shape. As such, a pyramid has at least three outer triangular surfaces. ",
+        "price": 330       
+    },
+    {
+        "key": "6",
+        "name": "South Island",
+        "img":"https://i.ibb.co/Gtcg3vL/mountain-lake-new-zealand-si-h.png",
+        "description":" New Zealand's South Island brims with majestic landscapes at every turn, from dramatic mountains to fjords to glaciers. Here, you can admire the mountains of Fiordland National Park, a UNESCO World Heritage Site, from hiking trails or a boat on Milford Sound. At night, journey to the University of Canterbury's . ",
+        "price": 220       
+    }
+    
+    
+    
+]

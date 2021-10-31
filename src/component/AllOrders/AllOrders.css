@@ -1,0 +1,12 @@
+.info_btn3{
+    padding: 10px 15px;
+    background-color: #B9F7F9;
+    border-radius: 10px;
+    border: 1px solid #024E83;
+    transition: .5s;
+    
+}
+.info_btn3:hover{
+    background-color: #fff;
+
+}
