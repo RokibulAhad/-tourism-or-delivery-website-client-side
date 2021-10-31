@@ -11,7 +11,7 @@ const AllOrders = () => {
     const handleDelete =(id)=>{
         const confirmation =window.confirm('Are you Sure? want to delete this item?')
         if(confirmation){
-            fetch(`http://localhost:5000/allorders/${id}`,{
+            fetch(`https://gruesome-labyrinth-21556.herokuapp.com/allorders/${id}`,{
                 method:'DELETE',
                 headers:{'content-type':'application/json'}
             })
@@ -26,7 +26,7 @@ const AllOrders = () => {
         } 
         const handleUpdatestatus = (id) => {
             const update = {status:'approved'}
-            const url = `http://localhost:5000/update/${id}`;
+            const url = `https://gruesome-labyrinth-21556.herokuapp.com/update/${id}`;
             fetch(url, {
                 method: 'PUT',
                 headers: {
@@ -46,7 +46,7 @@ const AllOrders = () => {
         }      
 
     useEffect(() =>{
-        fetch('http://localhost:5000/allorder')
+        fetch('https://gruesome-labyrinth-21556.herokuapp.com/allorder')
         .then(res => res.json())
         .then(data =>setAllorder(data))
     },[modifyCount])

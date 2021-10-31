@@ -11,7 +11,7 @@ const Details = () => {
     const [email, setemail] = useState('')
 
     useEffect(()=>{
-        fetch('http://localhost:5000/services')
+        fetch('https://gruesome-labyrinth-21556.herokuapp.com/services')
         .then(res=>res.json())
         .then(data=>setDetails(data))
     },[])
@@ -28,7 +28,7 @@ const Details = () => {
         data.productName= item?.name;
         data.img=item?.img
         console.log(JSON.stringify(data))
-        fetch("http://localhost:5000/orders", {
+        fetch("https://gruesome-labyrinth-21556.herokuapp.com/orders", {
         method: "POST",
         headers: { "content-type": "application/json" },
         body: JSON.stringify(data),

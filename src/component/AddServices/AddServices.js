@@ -6,7 +6,7 @@ const AddServices = () => {
     const { register, handleSubmit, watch, formState: { errors } } = useForm();
   const onSubmit = data => {
       console.log(JSON.stringify(data))
-      fetch("http://localhost:5000/services", {
+      fetch("https://gruesome-labyrinth-21556.herokuapp.com/services", {
       method: "POST",
       headers: { "content-type": "application/json" },
       body: JSON.stringify(data),

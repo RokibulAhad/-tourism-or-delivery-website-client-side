@@ -11,7 +11,7 @@ const MyOrder = () => {
     const handleDelete =(id)=>{
         const confirmation =window.confirm('Are you Sure? want to delete this item?')
         if(confirmation){
-            fetch(`http://localhost:5000/orders/${id}`,{
+            fetch(`https://gruesome-labyrinth-21556.herokuapp.com/orders/${id}`,{
                 method:'DELETE',
                 headers:{'content-type':'application/json'}
             })
@@ -22,7 +22,7 @@ const MyOrder = () => {
        
 
     useEffect(() =>{
-        fetch(`http://localhost:5000/myorder?email=${email}`)
+        fetch(`https://gruesome-labyrinth-21556.herokuapp.com/myorder?email=${email}`)
         .then(res => res.json())
         .then(data =>setMyorder(data))
     })
